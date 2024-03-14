@@ -1,0 +1,233 @@
+.main-container {
+  .space {
+    margin: 8px 0;
+  }
+
+  .bg {
+    background: url('./../assets/background.png') no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .toran {
+    background: url('./../assets/toran.png') no-repeat;
+    background-size: cover;
+    height: 48px;
+  }
+
+  .header {
+    background: url('./../assets/bhagwanName.png') no-repeat;
+    background-size: contain;
+    height: 46px;
+    background-position: center;
+  }
+
+  .sub-header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+
+    .corner {
+      background: url('./../assets/logo.png') no-repeat;
+      background-size: contain;
+      height: 46px;
+      background-position: center;
+    }
+
+    .right {
+      background-position: right;
+    }
+
+    .left {
+      background-position: left;
+    }
+
+    .middle {
+      background: url('./../assets/centerHeading.png') no-repeat;
+      background-size: contain;
+      height: 46px;
+      background-position: center;
+    }
+  }
+
+  .main-logo {
+    background: url('./../assets/mahvidehdhamcenterlogo.png') no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 324px;
+  }
+
+  .main-heading {
+    background: url('./../assets/facilitycentertext.png') no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 40px;
+  }
+
+  .facility {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+
+    .l1 {
+      background: url('./../assets/jinalayFacility.png') no-repeat;
+      background-position: center;
+      background-size: contain;
+      height: 135px;
+    }
+
+    .l2 {
+      background: url('./../assets/sadhusadhviFacility.png') no-repeat;
+      background-position: center;
+      background-size: contain;
+      height: 135px;
+    }
+
+    .l3 {
+      background: url('./../assets/medicalCenterFacility.png') no-repeat;
+      background-position: center;
+      background-size: contain;
+      height: 135px;
+    }
+
+    .l4 {
+      background: url('./../assets/aaradhnaHallFacility.png') no-repeat;
+      background-position: center;
+      background-size: contain;
+      height: 135px;
+    }
+  }
+
+  .facility2 {
+    display: grid;
+    grid-template-columns: 0.33fr 0.35fr 0.25fr;
+    gap: 2rem;
+    position: relative;
+    bottom: 80px;
+
+    .l1 {
+      background: url('./../assets/shramanviharFacility.png') no-repeat;
+      background-position: right;
+      background-size: contain;
+      height: 135px;
+    }
+
+    .l2 {
+      background: url('./../assets/gyanbhandarFacility.png') no-repeat;
+      background-position: center;
+      background-size: contain;
+      height: 135px;
+    }
+
+    .l3 {
+      background: url('./../assets/ePadhshalaFacility.png') no-repeat;
+      background-position: left;
+      background-size: contain;
+      height: 135px;
+    }
+  }
+
+  .facility3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    position: relative;
+    bottom: 4rem;
+
+    .f1 {
+      background: url('./../assets/dharamshalaFacility.png') no-repeat;
+      background-position: center;
+      background-size: contain;
+      height: 86px
+    }
+
+    .f2 {
+      background: url('./../assets/bhojanshalaFacility.png') no-repeat;
+      background-position: center;
+      background-size: contain;
+      height: 86px
+    }
+  }
+
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    bottom: 4rem;
+
+    .visit-us {
+      background: url('./../assets/visitUsText.png') no-repeat;
+      background-position: center;
+      background-size: contain;
+      height: 30px;
+      margin-left: 30px;
+      width: 100px;
+    }
+
+    .fb {
+      background: url('./../assets/facebookicon.png') no-repeat;
+      background-position: left;
+      background-size: contain;
+      width: 30px;
+      height: 30px;
+    }
+
+    .yt {
+      background: url('./../assets/youtubeIcon.png') no-repeat;
+      background-position: left;
+      background-size: contain;
+      width: 30px;
+      height: 30px;
+    }
+
+    .insta {
+      background: url('./../assets/instagramIcon.png') no-repeat;
+      background-position: left;
+      background-size: contain;
+      width: 30px;
+      height: 30px;
+    }
+
+    .mv {
+      background: url('./../assets/mahavidehdhamTexteng.png') no-repeat;
+      background-position: left;
+      background-size: contain;
+      width: 30px;
+      height: 30px;
+    }
+  }
+
+  .online {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .scanner {
+    width: 171px;
+    height: 30px;
+    display: grid;
+    grid-auto-flow: column;
+  }
+
+  .s1 {
+    background: url('./../assets/brochureQR.png') no-repeat;
+    background-position: left;
+    background-size: contain;
+    height: 30px;
+  }
+
+  .s2 {
+    background: url('./../assets/locationQR.png') no-repeat;
+    background-position: left;
+    background-size: contain;
+    height: 30px;
+  }
+
+  .s3 {
+    background: url('./../assets/walkthroughQR.png') no-repeat;
+    background-position: left;
+    background-size: contain;
+    height: 30px;
+  }
+}
